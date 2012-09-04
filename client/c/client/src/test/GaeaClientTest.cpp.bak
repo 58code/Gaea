@@ -1,0 +1,29 @@
+#include "GaeaClientTest.h"
+#include "../client/GaeaClientConfig.h"
+#include "../serialize/serializer.h"
+#include "../client/ProxyStandard.h"
+#include "../client/Parameter.h"
+#include <stdio.h>
+#include <string>
+
+GaeaClientTest::GaeaClientTest() {
+	ps = new gaea::ProxyStandard("demo", "NewsService");
+}
+
+GaeaClientTest::~GaeaClientTest() {
+
+}
+
+void GaeaClientTest::NewsServiceTest() {
+
+	ps->invoke("getNewsByCateID",NULL,0);
+}
+
+int main(int argc, char *argv[]) {
+	GaeaClientTest *ha = new GaeaClientTest();
+	std::string configFile="/项目路径/c-gaea/Debug/conf/gaea.config";
+	std::string s1 = "//项目路径/c-gaea/Debug/conf/struct.conf";
+	std::string logFile = "//项目路径/c-gaea/Debug/conf/gaea.log";
+	gaea::GaeaClientConfig().init(configFile,s1,logFile);
+	ha->NewsServiceTest();
+}

@@ -1,0 +1,35 @@
+#ifndef __INPUT_H_
+#define __INPUT_H_
+#define CURSOR      (Input.cursor)
+#define LINE        (Input.line)
+#define LINEHEAD    (Input.lineHead)
+
+typedef struct coord {
+	char *filename;
+	int ppline;
+	int line;
+	int col;
+}*Coord;
+
+struct input {
+	char *filename;
+	unsigned char *base;
+	unsigned char *cursor;
+	unsigned char *lineHead;
+	int line;
+	void* file;
+	void* fileMapping;
+	unsigned long size;
+	Coord asf;
+};
+struct input Input;
+#ifdef __cplusplus
+extern "C" {
+#endif
+void ReadSourceFile(char *fileName);
+void CloseSourceFile(void);
+#ifdef __cplusplus
+}
+#endif
+#endif
+

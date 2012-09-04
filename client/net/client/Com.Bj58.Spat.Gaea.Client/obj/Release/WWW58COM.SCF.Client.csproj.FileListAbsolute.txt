@@ -1,0 +1,7 @@
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\bin\Release\副本 scf.config
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\bin\Release\scf.config
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\bin\Release\WWW58COM.SCF.dll
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\bin\Release\WWW58COM.SCF.pdb
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\obj\Release\ResolveAssemblyReference.cache
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\obj\Release\WWW58COM.SCF.dll
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Client\obj\Release\WWW58COM.SCF.pdb

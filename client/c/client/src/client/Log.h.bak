@@ -1,0 +1,26 @@
+/*
+ * Log.h
+   *
+ * Created on: 2011-7-6
+ * Author: Service Platform Architecture Team (spat@58.com)
+ */
+
+#ifndef __LOG_H_
+#define __LOG_H_
+#include <time.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <unistd.h>
+#define GAEA_DEBUG 0
+#define GAEA_VERBOSE 1
+#define GAEA_NOTICE 2
+#define GAEA_WARNING 3
+#ifdef __cplusplus
+extern "C" {
+#endif
+void gaeaLog(int level, const char *fmt, ...);
+void setLogFilePath(char* pa);
+#ifdef __cplusplus
+	}
+#endif
+#endif /* LOG_H_ */

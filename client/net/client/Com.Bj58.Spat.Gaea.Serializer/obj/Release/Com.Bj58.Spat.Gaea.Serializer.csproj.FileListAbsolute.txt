@@ -1,0 +1,5 @@
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Serializer\bin\Release\Com.Bj58.Spat.Gaea.Serializer.dll
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Serializer\bin\Release\Com.Bj58.Spat.Gaea.Serializer.pdb
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Serializer\obj\Release\ResolveAssemblyReference.cache
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Serializer\obj\Release\Com.Bj58.Spat.Gaea.Serializer.dll
+E:\Visual Studio 2010\Projects\WWW58COM.SCF\WWW58COM.SCF.Serializer\obj\Release\Com.Bj58.Spat.Gaea.Serializer.pdb

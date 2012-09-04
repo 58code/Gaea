@@ -1,0 +1,10 @@
+#ifndef STRUCT_H_
+#define STRUCT_H_
+#include "time.h"
+#include "../serialize/serializeList.h"
+#include <objc/hash.h>
+typedef struct {
+	int newsID;
+	char* title;
+} News;
+#endif

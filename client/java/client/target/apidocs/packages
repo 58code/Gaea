@@ -1,0 +1,15 @@
+com.bj58.spat.gaea.client.communication.socket
+com.bj58.spat.gaea.client.configuration.commmunication
+com.bj58.spat.gaea.client.configuration.loadbalance
+com.bj58.spat.gaea.client.configuration
+com.bj58.spat.gaea.client.configuration.secure
+com.bj58.spat.gaea.client
+com.bj58.spat.gaea.client.loadbalance.component
+com.bj58.spat.gaea.client.loadbalance
+com.bj58.spat.gaea.client.proxy.builder
+com.bj58.spat.gaea.client.proxy.component
+com.bj58.spat.gaea.client.proxy
+com.bj58.spat.gaea.client.secure
+com.bj58.spat.gaea.client.utility
+com.bj58.spat.gaea.client.utility.helper
+com.bj58.spat.gaea.client.utility.logger

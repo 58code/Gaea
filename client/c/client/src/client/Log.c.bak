@@ -1,0 +1,32 @@
+#include "Log.h"
+#include "GaeaConst.h"
+static char* logFile = GAEA_LOG_PATH;
+void gaeaLog(int level, const char *fmt, ...) {
+	int GAEA_VERBOSITY = 0;
+	if (level < GAEA_VERBOSITY) {
+		return;
+	}
+	const char *c = ".-*#";
+	time_t now = time(NULL);
+	va_list ap;
+	FILE *fp;
+	char buf[64];
+	char msg[1024];
+
+	fp = fopen(logFile, "a");
+	if (!fp)
+	return;
+
+	va_start(ap, fmt);
+	vsnprintf(msg, sizeof(msg), fmt, ap);
+	va_end(ap);
+
+	strftime(buf, sizeof(buf), "%F %H:%M:%S", localtime(&now));
+	fprintf(fp, "[%d] %s %c %s\n", (int) getpid(), buf, c[level], msg);
+	fflush(fp);
+	fclose(fp);
+
+}
+void setLogFilePath(char* pa) {
+	logFile = pa;
+}

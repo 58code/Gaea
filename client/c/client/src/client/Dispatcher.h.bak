@@ -1,0 +1,33 @@
+/*
+ * Dispatcher.h
+   *
+ * Created on: 2011-7-8
+ * Author: Service Platform Architecture Team (spat@58.com)
+ */
+
+#ifndef DISPATCHER_H_
+#define DISPATCHER_H_
+#include "GaeaClientConfig.h"
+#include "Server.h"
+#include <vector>
+#include <pthread.h>
+namespace gaea {
+
+class Dispatcher {
+public:
+    Dispatcher(GaeaClientConfig *gaeaClientConfig);
+    virtual ~Dispatcher();
+    Server* getServer();
+    Server* getServer(char *hostName);
+    std::vector<Server*>* getAllServer();
+private:
+    size_t count;
+    pthread_mutex_t countMutex;
+    pthread_mutex_t stateMutex;
+    std::vector<Server*> *serverVector;
+    int requestCount;
+};
+
+}
+
+#endif /* DISPATCHER_H_ */

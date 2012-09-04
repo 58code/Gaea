@@ -1,0 +1,24 @@
+-classpath
+'E:/Object/scfOpen/client/target/classes;C:/Users/Administrator/.m2/repository/com/bj58/spat/com.bj58.spat.gaea.serializer/0.0.1-SNAPSHOT/com.bj58.spat.gaea.serializer-0.0.1-SNAPSHOT.jar;C:/Users/Administrator/.m2/repository/com/bj58/spat/com.bj58.spat.gaea.protocol/0.0.1-SNAPSHOT/com.bj58.spat.gaea.protocol-0.0.1-SNAPSHOT.jar;C:/Users/Administrator/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar'
+-encoding
+'GBK'
+-protected
+-sourcepath
+'E:/Object/scfOpen/client/src'
+-author
+-bottom
+'Copyright &#169; 2012. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'E:/Object/scfOpen/client/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'gaea.client 0.0.1-SNAPSHOT API'
+-linkoffline
+'http://download.oracle.com/javase/6/docs/api' 'E:/Object/scfOpen/client/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'gaea.client 0.0.1-SNAPSHOT API'

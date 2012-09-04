@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/bootstrap"/>
+	<classpathentry kind="src" output="target/classes" path="src/filter"/>
+	<classpathentry kind="src" output="target/classes" path="src/secure"/>
+	<classpathentry kind="src" output="target/classes" path="src/contract"/>
+	<classpathentry kind="src" output="target/classes" path="src/core"/>
+	<classpathentry kind="src" output="target/classes" path="src/deploy"/>
+	<classpathentry kind="src" output="target/classes" path="src/performance"/>
+	<classpathentry kind="src" output="target/classes" path="src/util"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_31"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

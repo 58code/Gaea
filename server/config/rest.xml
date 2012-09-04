@@ -1,0 +1,62 @@
+<rest>
+	<resource>
+		<url>/news/{newsid}</url>
+		
+		<action httpmethod="get">
+			<lookup>NewsService</lookup>
+			<methodname>getNews</methodname>
+			<parameters>
+				<pathpara>
+					<type>int</type>
+					<value>newsid</value>
+				</pathpara>
+			</parameters>
+		</action>
+		
+		<action httpmethod="delete">
+			<lookup>NewsService</lookup>
+			<methodname>deleteNews</methodname>
+			<parameters>
+				<pathpara>
+					<type>int</type>
+					<value>newsid</value>
+				</pathpara>
+			</parameters>
+		</action>
+	</resource>
+	
+	
+	<resource>
+		<url>/newslist/{cateid}/{userid}</url>
+		
+		<action httpmethod="get">
+			<lookup>NewsService</lookup>
+			<methodname>getNews</methodname>
+			<parameters>
+				<pathpara>
+					<type>int</type>
+					<value>cateid</value>
+				</pathpara>
+				<pathpara>
+					<type>int</type>
+					<value>userid</value>
+				</pathpara>
+			</parameters>
+		</action>
+	</resource>
+	
+	
+	<resource>
+		<url>/addnews/</url>
+		
+		<action httpmethod="post">
+			<lookup>NewsService</lookup>
+			<methodname>addNews</methodname>
+			<parameters>
+				<contentpara>
+					<type>com.bj58.spat.servicedemo.entity.News</type>
+				</contentpara>
+			</parameters>
+		</action>
+	</resource>
+</rest>

@@ -1,0 +1,24 @@
+[4455] 2012-08-30 14:53:53 # server 127.0.0.1 connect failed: Operation now in progress
+
+[4455] 2012-08-30 14:53:53 # create socket failed. hostName:127.0.0.1
+
+[4455] 2012-08-30 14:53:53 # markAsDead server:imc1
+
+[4455] 2012-08-30 14:53:53 # Not get server,This server is 0 DeadTime:1346309633 DeadTimeout:10
+
+[4455] 2012-08-30 14:53:53 # server 127.0.0.1 connect failed: Operation now in progress
+
+[4455] 2012-08-30 14:53:53 # create socket failed. hostName:127.0.0.1
+
+[4455] 2012-08-30 14:53:53 # markAsDead server:imc1
+
+[4455] 2012-08-30 14:53:53 # Not get server,This server is 0 DeadTime:1346309633 DeadTimeout:10
+
+[4455] 2012-08-30 14:53:53 # server 127.0.0.1 connect failed: Operation now in progress
+
+[4455] 2012-08-30 14:53:53 # create socket failed. hostName:127.0.0.1
+
+[4455] 2012-08-30 14:53:53 # markAsDead server:imc1
+
+[4545] 2012-08-30 14:55:56 # error num:8190439398052--state:OtherException--Message:NewsServiceProxyStub1346309697553.getNewsByCateID(NewsServiceProxyStub1346309697553.java)---NewsServiceProxyStub1346309697553.invoke(NewsServiceProxyStub1346309697553.java)---com.bj58.spat.gaea.server.core.proxy.InvokerBase.doInvoke(InvokerBase.java:94)---com.bj58.spat.gaea.server.core.proxy.AsyncInvokerHandle$1.run(AsyncInvokerHandle.java:73)---com.bj58.spat.sfft.utility.async.AsyncWorker$1.run(AsyncWorker.java:108)---java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)---java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)---java.lang.Thread.run(Thread.java:662)---
+[4597] 2012-08-30 14:56:44 # error num:8238305804541--state:OtherException--Message:NewsServiceProxyStub1346309697553.getNewsByCateID(NewsServiceProxyStub1346309697553.java)---NewsServiceProxyStub1346309697553.invoke(NewsServiceProxyStub1346309697553.java)---com.bj58.spat.gaea.server.core.proxy.InvokerBase.doInvoke(InvokerBase.java:94)---com.bj58.spat.gaea.server.core.proxy.AsyncInvokerHandle$1.run(AsyncInvokerHandle.java:73)---com.bj58.spat.sfft.utility.async.AsyncWorker$1.run(AsyncWorker.java:108)---java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)---java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)---java.lang.Thread.run(Thread.java:662)---

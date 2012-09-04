@@ -1,0 +1,14 @@
+#ifndef __derializer
+#define __derializer
+#include "serializer.h"
+typedef int (*derializer)(int, char, array *, array *, array *);
+derializer getDerializer(int typeId);
+#ifdef __cplusplus
+extern "C" {
+#endif
+void* Derialize(char *type, void *inData, int inDataLen);
+void DerializeFree(char *type, void *obj);
+#ifdef __cplusplus
+}
+#endif
+#endif

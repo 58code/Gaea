@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProtocolExtent" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\Component\ProtocolExtent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONST" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAACAAABAIAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CONST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SDP.ExceptionProtocol" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAIAAAAAAAAAAAAAAAABgAAAAAAAAAAEAADAA=</HashCode>
+      <FileName>Communication\Protocol\SDP\ExceptionProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SDP.RequestProtocol" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAAAAAAAAAAAAYAAAAAAAAgAAAAACAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\SDP\RequestProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SDP.RpParameter" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\SDP\RequestProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SDP.ResponseProtocol&lt;T&gt;" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAABAAAAAAI=</HashCode>
+      <FileName>Communication\Protocol\SDP\ResponseProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SFP.Protocol" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAGAAAAABgAAAgAAgIAAAAAAIACAAQBgCpAAg=</HashCode>
+      <FileName>Communication\Protocol\SFP\Protocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SFP.SFPStruct" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAgAgAEAAgIAAAAAAAACAAAAACAAAA=</HashCode>
+      <FileName>Communication\Protocol\SFP\SFPStruct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Scoket.CSocket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACgARAACAEAAAAAgAAAAAAAQAAkQAACAAAA=</HashCode>
+      <FileName>Communication\Scoket\CSocket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Scoket.ScoketPool" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIAAAAAAACAkAAAAQAAABAAAAAAAkAABAAAAA=</HashCode>
+      <FileName>Communication\Scoket\ScoketPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Scoket.ConnPool" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAACAAACAAAABBAAAAAAAAAQEgAAAAAAAAABAA=</HashCode>
+      <FileName>Communication\Scoket\ScoketPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Serialize.BinarySerialize" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Serialize\BinarySerialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Serialize.JsonSerialize" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Serialize\JsonSerialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Communication.Serialize.SerializeBase" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABCBAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Serialize\SerializeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.Commmunication.ProtocolProfile" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAABBAACAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\Commmunication\ProtocolProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.Commmunication.SocketPoolProfile" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABACAAAACAIgAAgAAgAAAAAAAAAQAAAAACA=</HashCode>
+      <FileName>Configuration\Commmunication\SocketPoolProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.Loadbalance.ServerProfile" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAAAQACAAACAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Configuration\Loadbalance\ServerProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.LoggerConfig" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAIACAAIAAAAAAAAAAAEAAABAgACAAAAAIA=</HashCode>
+      <FileName>Configuration\LoggerConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.UDPProfile" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\LoggerConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.FileProfile" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\LoggerConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Configuration.ServiceConfig" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAIBAAAAABAAAAAAAAAAhAAAAAABIA=</HashCode>
+      <FileName>Configuration\ServiceConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Loadbalance.Dispatcher" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAIBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Loadbalance\Dispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Loadbalance.Server" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAGABhQAAQACCAIgABCAAAABQAAACA=</HashCode>
+      <FileName>Loadbalance\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.Builder.MethodCaller" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAEAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Builder\MethodCaller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.Builder.ProxyFactory" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Builder\ProxyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.Builder.ProxyStandard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACIAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Builder\ProxyStandard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.Component.ExceptionProvider" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Proxy\Component\ExceptionProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.Component.Parameter" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAIAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Component\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.Component.TypeMapping" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Component\TypeMaping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.DataOverFlowException" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\DataOverFlowException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.DBException" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\DBException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.JSONException" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\JSONException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.JSONSerializeException" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\JSONSerializeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.NetException" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\NetException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.NotFoundMethodException" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\NotFoundMethodException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.NotFoundServiceException" Collapsed="true">
+    <Position X="26.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\NotFoundServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.OtherException" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\OtherException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.ParaException" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\ParaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.ProtocolException" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\ProtocolException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.ReceiveTimeoutException" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\ReceiveTimeoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.RemoteException" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\RemoteException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.SendTimeoutException" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\SendTimeoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.ServiceException" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.TimeoutException" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\TimeoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.UnCloseConnectionPoolException" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\UnCloseConnectionPoolException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Exceptions.WaitConnectionTimeoutException" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Exceptions\WaitConnectionTimeoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.ServiceProxy" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAIABCCAAgAAIAEAAAAAAQAAAAAAIAAAAA=</HashCode>
+      <FileName>Proxy\ServiceProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.InvokeResult&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\ServiceProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Proxy.InvokeResult" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\ServiceProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.Helper.ArrayHelper" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Helper\ArrayHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.Helper.CharHelper" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Helper\CharHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.JsonAnalyser.CommonJsonModel" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAIASABAQAAAYAAAgCAAAIAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Utility\JsonAnalyser\CommonJsonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.JsonAnalyser.CommonJsonModelAnalyzer" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Utility\JsonAnalyser\CommonJsonModelAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.Logger.FileLogger" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAYAAAEAAAACAAAECAAkBAAAAAEAEAAA=</HashCode>
+      <FileName>Utility\Logger\FileLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.Logger.LoggerBase" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAACAAAgAAAEBAAAAAEAEAAA=</HashCode>
+      <FileName>Utility\Logger\LoggerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Client.Utility.Logger.UDPLogger" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAAYgAAAAAAACAAAAAAAEBAAAABEAEAAA=</HashCode>
+      <FileName>Utility\Logger\UDPLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Com.Bj58.Spat.Gaea.Client.Proxy.Component.VOID" Collapsed="true">
+    <Position X="29" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Component\Void.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Com.Bj58.Spat.Gaea.Client.Proxy.Builder.IProxyStandard" Collapsed="true">
+    <Position X="29" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy\Builder\IProxyStandard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SFP.Enum.CompressType" Collapsed="true">
+    <Position X="29" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\SFP\Enum\CompressType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SFP.Enum.PlatformType" Collapsed="true">
+    <Position X="36" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\SFP\Enum\PlatformType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SFP.Enum.SerializeType" Collapsed="true">
+    <Position X="37.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAEAAAAAAAACCAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\SFP\Enum\SerializeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Communication.Protocol.SFP.Enum.UserDataType" Collapsed="true">
+    <Position X="30.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgBAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAA=</HashCode>
+      <FileName>Communication\Protocol\SFP\Enum\UserDataType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Loadbalance.Component.ServerState" Collapsed="true">
+    <Position X="29" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAAAgCAAAAgA=</HashCode>
+      <FileName>Loadbalance\Component\ServerState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Proxy.Enum.Errorcode" Collapsed="true">
+    <Position X="30.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAABAAAACKAAABAAABAIgAAIAACAAAAAAAAABA=</HashCode>
+      <FileName>Proxy\Enum\Errorcode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Proxy.Enum.ParaType" Collapsed="true">
+    <Position X="34.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Proxy\Enum\ParaType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Com.Bj58.Spat.Gaea.Client.Utility.Logger.Level" Collapsed="true">
+    <Position X="32.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAYAAAAAAAACAAAAAAAEAAIAAAEAEAAA=</HashCode>
+      <FileName>Utility\Logger\Level.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

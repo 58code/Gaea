@@ -1,0 +1,6 @@
+com.bj58.spat.gaea.serializer.classes
+com.bj58.spat.gaea.serializer.component.annotation
+com.bj58.spat.gaea.serializer.component
+com.bj58.spat.gaea.serializer.component.exception
+com.bj58.spat.gaea.serializer.component.helper
+com.bj58.spat.gaea.serializer.serializer

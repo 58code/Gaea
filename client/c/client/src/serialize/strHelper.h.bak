@@ -1,0 +1,11 @@
+#ifndef __strHelper
+#define __strHelper
+#ifdef __cplusplus
+extern "C" {
+#endif
+int GetHashcode(const char *str, int len);
+int GetTypeId(char *type);
+#ifdef __cplusplus
+}
+#endif
+#endif

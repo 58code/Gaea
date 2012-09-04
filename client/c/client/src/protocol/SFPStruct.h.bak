@@ -1,0 +1,23 @@
+/*
+ * SFPStruct.h
+ *
+ *  Created on: 2011-7-12
+ *  Author: Service Platform Architecture Team (spat@58.com)
+ */
+
+#ifndef SFPSTRUCT_H_
+#define SFPSTRUCT_H_
+namespace gaea {
+class SFPStruct {
+public:
+	const static int Version = 1;
+	const static int TotalLen = 4;
+	const static int SessionId = 4;
+	const static int ServerId = 1;
+	const static int SDPType = 1;
+	const static int CompressType = 1;
+	const static int SerializeType = 1;
+	const static int Platform = 1;
+};
+}
+#endif /* SFPSTRUCT_H_ */

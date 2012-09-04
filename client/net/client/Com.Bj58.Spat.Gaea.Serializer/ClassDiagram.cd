@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.ArraySerializer" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ArraySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.BooleanSerializer" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>BooleanSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.CharSerializer" Collapsed="true">
+    <Position X="24.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CharSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.DateTimeSerizlizer" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEEAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>DateTimeSerizlizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.KeyValueSerializer" Collapsed="true">
+    <Position X="42.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>KeyValueSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.ListSerializer" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ListSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.MapSerializer" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>MapSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.NullSerializer" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NullSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Int32Serializer" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NumberSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Int64Serializer" Collapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NumberSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Int16Serializer" Collapsed="true">
+    <Position X="38.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NumberSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.EnumSerializer" Collapsed="true">
+    <Position X="45" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>EnumSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.DecimalSerizlizer" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DecimalSerizlizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.FloatSerializer" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NumberSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.DoubleSerializer" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NumberSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.ByteSerializer" Collapsed="true">
+    <Position X="36" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>NumberSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.ObjectSerializer" Collapsed="true">
+    <Position X="40.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Serializer" Collapsed="true">
+    <Position X="53.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAAAAgAAA=</HashCode>
+      <FileName>Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.SerializerBase" Collapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>SerializerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.SerializerFactory" Collapsed="true">
+    <Position X="55.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAAABIIBQACAAACAYAIISAAAAAAQAAAACIAAAA=</HashCode>
+      <FileName>SerializerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.StringSerializer" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>StringSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Attributes.GaeaMemberAttribute" Collapsed="true">
+    <Position X="52" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\Attributes\GaeaMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Attributes.GaeaNotMemberAttribute" Collapsed="true">
+    <Position X="53.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\Attributes\GaeaNotMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Attributes.GaeaSerializableAttribute" Collapsed="true">
+    <Position X="55.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Component\Attributes\Serializable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Exceptions.DisallowedSerializeException" Collapsed="true">
+    <Position X="53.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAA=</HashCode>
+      <FileName>Component\Exceptions\DisallowedSerializeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Exceptions.NotFindTypeException" Collapsed="true">
+    <Position X="57.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAA=</HashCode>
+      <FileName>Component\Exceptions\NotFindTypeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Exceptions.SerializeException" Collapsed="true">
+    <Position X="52" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAIAQAgIABAAAA=</HashCode>
+      <FileName>Component\Exceptions\SerializeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.Exceptions.StreamException" Collapsed="true">
+    <Position X="57.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAA=</HashCode>
+      <FileName>Component\Exceptions\StreamException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ByteExtend" Collapsed="true">
+    <Position X="52" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAAAQAAAAAAAAABgAJAAogYAAAA=</HashCode>
+      <FileName>Component\Extend\ByteExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreamExtend" Collapsed="true">
+    <Position X="52" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAARAEAAAAQAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Component\Extend\StreamExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringExtend" Collapsed="true">
+    <Position X="53.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\Extend\StringExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeExtend" Collapsed="true">
+    <Position X="55.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Component\Extend\TypeExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.GenericHelper" Collapsed="true">
+    <Position X="55.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\GenericHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.GaeaStream" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAIAAAAAAAAAAAAAIAAACAAAAAIABAAAAAAAAACA=</HashCode>
+      <FileName>Component\GaeaStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Com.Bj58.Spat.Gaea.Serializer.Component.TypeInfo" Collapsed="true">
+    <Position X="57.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACBgAAAgAA=</HashCode>
+      <FileName>Component\TypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Com.Bj58.Spat.Gaea.Serializer.IGaeaSerializer" Collapsed="true">
+    <Position X="52" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>IGaeaSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

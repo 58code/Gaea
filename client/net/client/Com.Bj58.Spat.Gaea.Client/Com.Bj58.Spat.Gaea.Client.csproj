@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B07AA566-B9AD-47CD-B1C0-5642D0366739}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Bj58.Spat.Gaea.Client</RootNamespace>
+    <AssemblyName>Com.Bj58.Spat.Gaea.Client</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.pfx</AssemblyOriginatorKeyFile>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Test|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'V1.0|AnyCPU' ">
+    <OutputPath>bin\V1.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'V1.1|AnyCPU' ">
+    <OutputPath>bin\V1.1\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communication\Serialize\BinarySerialize.cs" />
+    <Compile Include="MethodAttribute.cs" />
+    <Compile Include="Proxy\Component\Parameter.cs" />
+    <Compile Include="Proxy\Component\TypeMaping.cs" />
+    <Compile Include="Proxy\Component\Void.cs" />
+    <Compile Include="Proxy\Enum\ParaType.cs" />
+    <Compile Include="Communication\Protocol\SFP\SFPStruct.cs" />
+    <Compile Include="CONST.cs" />
+    <Compile Include="Proxy\Enum\Errorcode.cs" />
+    <Compile Include="Proxy\Exceptions\DataOverFlowException.cs" />
+    <Compile Include="Proxy\Exceptions\DBException.cs" />
+    <Compile Include="Proxy\Exceptions\JSONException.cs" />
+    <Compile Include="Proxy\Exceptions\JSONSerializeException.cs" />
+    <Compile Include="Proxy\Exceptions\NetException.cs" />
+    <Compile Include="Proxy\Exceptions\NotFoundMethodException.cs" />
+    <Compile Include="Proxy\Exceptions\NotFoundServiceException.cs" />
+    <Compile Include="Proxy\Exceptions\OtherException.cs" />
+    <Compile Include="Proxy\Exceptions\ParaException.cs" />
+    <Compile Include="Proxy\Exceptions\ProtocolException.cs" />
+    <Compile Include="Proxy\Exceptions\ReceiveTimeoutException.cs" />
+    <Compile Include="Proxy\Exceptions\RemoteException.cs" />
+    <Compile Include="Proxy\Exceptions\SendTimeoutException.cs" />
+    <Compile Include="Proxy\Exceptions\ServiceException.cs" />
+    <Compile Include="Proxy\Component\ExceptionProvider.cs" />
+    <Compile Include="Proxy\Exceptions\TimeoutException.cs" />
+    <Compile Include="Proxy\Exceptions\UnCloseConnectionPoolException.cs" />
+    <Compile Include="Proxy\Exceptions\WaitConnectionTimeoutException.cs" />
+    <Compile Include="Communication\Protocol\SDP\ExceptionProtocol.cs" />
+    <Compile Include="Communication\Protocol\Component\ProtocolExtent.cs" />
+    <Compile Include="Communication\Protocol\SDP\RequestProtocol.cs" />
+    <Compile Include="Communication\Protocol\SDP\ResponseProtocol.cs" />
+    <Compile Include="Communication\Protocol\SFP\Enum\CompressType.cs" />
+    <Compile Include="Communication\Protocol\SFP\Enum\PlatformType.cs" />
+    <Compile Include="Communication\Protocol\SFP\Enum\SerializeType.cs" />
+    <Compile Include="Communication\Protocol\SFP\Enum\UserDataType.cs" />
+    <Compile Include="Communication\Protocol\SFP\Protocol.cs" />
+    <Compile Include="Communication\Socket\CSocket.cs" />
+    <Compile Include="Communication\Socket\SocketPool.cs" />
+    <Compile Include="Configuration\Commmunication\ProtocolProfile.cs" />
+    <Compile Include="Configuration\Commmunication\SocketPoolProfile.cs" />
+    <Compile Include="Configuration\Loadbalance\ServerProfile.cs" />
+    <Compile Include="Configuration\LoggerConfig.cs" />
+    <Compile Include="Loadbalance\Component\ServerState.cs" />
+    <Compile Include="Loadbalance\Server.cs" />
+    <Compile Include="Communication\Serialize\JsonSerialize.cs" />
+    <Compile Include="Communication\Serialize\SerializeBase.cs" />
+    <Compile Include="Configuration\ServiceConfig.cs" />
+    <Compile Include="Proxy\Builder\MethodCaller.cs" />
+    <Compile Include="Proxy\Builder\ProxyFactory.cs" />
+    <Compile Include="Proxy\Builder\ProxyStandard.cs" />
+    <Compile Include="Proxy\Builder\IProxyStandard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Proxy\ServiceProxy.cs" />
+    <Compile Include="Loadbalance\Dispatcher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secure\DESCoderHelper.cs" />
+    <Compile Include="Secure\RSACoderHelper.cs" />
+    <Compile Include="ServerMonitor.cs" />
+    <Compile Include="Utility\Helper\ArrayHelper.cs" />
+    <Compile Include="Utility\Helper\CharHelper.cs" />
+    <Compile Include="Utility\JsonAnalyser\CommonJsonModelAnalyzer.cs" />
+    <Compile Include="Utility\JsonAnalyser\CommonJsonModel.cs" />
+    <Compile Include="Utility\Logger\LoggerBase.cs" />
+    <Compile Include="Utility\Logger\Level.cs" />
+    <Compile Include="Utility\Logger\FileLogger.cs" />
+    <Compile Include="Utility\Logger\UDPLogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GAEA_Client.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.pfx" />
+    <None Include="gaea.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Com.Bj58.Spat.Gaea.Serializer\Com.Bj58.Spat.Gaea.Serializer.csproj">
+      <Project>{AEED664C-ACE9-468F-8918-62903BDD8301}</Project>
+      <Name>Com.Bj58.Spat.Gaea.Serializer</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

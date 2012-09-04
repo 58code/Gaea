@@ -1,0 +1,46 @@
+/*
+ * ServiceProxy.h
+   *
+ * Created on: 2011-7-12
+ * Author: Service Platform Architecture Team (spat@58.com)
+ */
+
+#ifndef SERVICEPROXY_H_
+#define SERVICEPROXY_H_
+#include "Dispatcher.h"
+#include "GaeaClientConfig.h"
+#include "Parameter.h"
+#include "../protocol/Protocol.h"
+#include "../serialize/serializer.h"
+#include <string>
+#include <pthread.h>
+#include <map>
+namespace gaea {
+class InvokeResult {
+public:
+	InvokeResult(void *result, array *outPara);
+	virtual ~InvokeResult();
+	array* getOutPara() const;
+	void *getResult() const;
+private:
+	void *result;
+	array *outPara;
+	GaeaClientConfig *config;
+};
+
+class ServiceProxy {
+public:
+	virtual ~ServiceProxy();
+	static ServiceProxy* getProxy(std::string &serviceName);
+	InvokeResult* invoke(char *lookup, char *methodName, Parameter **paras, int parasLen);
+protected:
+	ServiceProxy(std::string &serviceName);
+	int createSessionId();
+	Dispatcher *dispatcher;
+	GaeaClientConfig *config;
+	static volatile int sessionId;
+	static std::map<std::string, ServiceProxy*> proxys;
+	static pthread_mutex_t mutex;
+};
+}
+#endif /* SERVICEPROXY_H_ */

@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<configuration>
+
+<!-- +++++++++++++++ global config ++++++++++++++++ -->
+
+<!-- service name -->
+<property>
+<name>gaea.service.name</name>
+<value></value>
+</property>
+
+<!-- service encoding -->
+<property>
+<name>gaea.encoding</name>
+<value>utf-8</value>
+</property>
+
+<!-- hotdeploy? -->
+<property>
+<name>gaea.hotdeploy</name>
+<value>false</value>
+</property>
+
+<!-- global reqeust filter -->
+<property>
+<name>gaea.filter.global.request</name>
+<value>com.bj58.spat.gaea.server.filter.ProtocolParseFilter,com.bj58.spat.gaea.server.filter.HandclaspFilter,com.bj58.spat.gaea.server.filter.ExecuteMethodFilter</value>
+</property>
+
+<!-- global response filter -->
+<property>
+<name>gaea.filter.global.response</name>
+<value>com.bj58.spat.gaea.server.filter.ProtocolCreateFilter,com.bj58.spat.gaea.server.filter.ExecuteTimeFilter</value>
+</property>
+
+<!-- connection filter-->
+<property>
+<name>gaea.filter.connection</name>
+<value>com.bj58.spat.gaea.server.filter.IPFilter</value>
+</property>
+
+<!-- allow ip list -->
+<property>
+<name>gaea.iptable.allow.iplist</name>
+<value></value>
+</property>
+
+<!-- forbid ip list -->
+<property>
+<name>gaea.iptable.forbid.iplist</name>
+<value></value>
+</property>
+
+<!-- init beans -->
+<property>
+<name>gaea.init</name>
+<value>com.bj58.spat.gaea.server.contract.context.SerializerClassInit</value>
+</property>
+
+<!-- udp log server ip -->
+<property>
+<name>gaea.log.udpserver.ip</name>
+<value>192.168.9.112</value>
+</property>
+
+<!-- udp log server port -->
+<property>
+<name>gaea.log.udpserver.port</name>
+<value>8888</value>
+</property>
+
+<!-- udp log execute time limit(ms), if(execTime > limit) then log -->
+<property>
+<name>gaea.log.exectime.limit</name>
+<value>200</value>
+</property>
+
+
+
+<!-- proxy invoker-->
+<property>
+<name>gaea.proxy.invoker.implement</name>
+<value>com.bj58.spat.gaea.server.core.proxy.AsyncInvokerHandle</value>
+</property>
+
+<!-- async worker count-->
+<property>
+<name>gaea.async.worker.count</name>
+<value>100</value>
+</property>
+
+<!-- server list-->
+<property>
+<name>gaea.servers</name>
+<value>gaea.server.tcp,gaea.server.http,gaea.server.telnet</value>
+</property>
+
+<!-- +++++++++++++++ socket server config ++++++++++++++++ -->
+
+<!-- socket server is enable -->
+<property>
+<name>gaea.server.tcp.enable</name>
+<value>true</value>
+</property>
+
+<!-- socket server listent port -->
+<property>
+<name>gaea.server.tcp.listenPort</name>
+<value>9090</value>
+</property>
+
+<!-- socket server listent ip -->
+<property>
+<name>gaea.server.tcp.listenIP</name>
+<value>0.0.0.0</value>
+</property>
+
+<!-- socket server receive buffer size:1024 * 64 -->
+<property>
+<name>gaea.server.tcp.receiveBufferSize</name>
+<value>65536</value>
+</property>
+
+<!-- socket server send buffer size:1024 * 64 -->
+<property>
+<name>gaea.server.tcp.sendBufferSize</name>
+<value>65536</value>
+</property>
+
+<!-- socket server frame max length:1024 * 512 -->
+<property>
+<name>gaea.server.tcp.frameMaxLength</name>
+<value>524288</value>
+</property>
+
+<!-- socket server worder thread count netty-->
+<property>
+<name>gaea.server.tcp.workerCount</name>
+<value>32</value>
+</property>
+
+<!-- socket server task timeout 3000ms-->
+<property>
+<name>gaea.server.tcp.task.timeout</name>
+<value>3000</value>
+</property>
+
+<!-- socket server implement class -->
+<property>
+<name>gaea.server.tcp.implement</name>
+<value>com.bj58.spat.gaea.server.core.communication.tcp.SocketServer</value>
+</property>
+
+<!-- +++++++++++++++ http server config ++++++++++++++++ -->
+
+<!-- http server is enable -->
+<property>
+<name>gaea.server.http.enable</name>
+<value>false</value>
+</property>
+
+<!-- http server listent port -->
+<property>
+<name>gaea.server.http.listenPort</name>
+<value>8080</value>
+</property>
+
+<!-- http server listent ip -->
+<property>
+<name>gaea.server.http.listenIP</name>
+<value>0.0.0.0</value>
+</property>
+
+<!-- http server receive buffer size:1024 * 64 -->
+<property>
+<name>gaea.server.http.receiveBufferSize</name>
+<value>65536</value>
+</property>
+
+<!-- http server send buffer size:1024 * 64 -->
+<property>
+<name>gaea.server.http.sendBufferSize</name>
+<value>65536</value>
+</property>
+
+<!-- http server frame max length:1024 * 512 -->
+<property>
+<name>gaea.server.http.frameMaxLength</name>
+<value>524288</value>
+</property>
+
+<!-- http server worder thread count -->
+<property>
+<name>gaea.server.http.workerCount</name>
+<value>32</value>
+</property>
+
+<!-- http server implement class -->
+<property>
+<name>gaea.server.http.implement</name>
+<value>com.bj58.spat.gaea.server.core.communication.http.HttpServer</value>
+</property>
+
+
+<!-- +++++++++++++++ telnet server config ++++++++++++++++ -->
+
+<!-- telnet server is enable -->
+<property>
+<name>gaea.server.telnet.enable</name>
+<value>true</value>
+</property>
+
+<!-- telnet server listent port -->
+<property>
+<name>gaea.server.telnet.listenPort</name>
+<value>7070</value>
+</property>
+
+<!-- telnet server listent ip -->
+<property>
+<name>gaea.server.telnet.listenIP</name>
+<value>0.0.0.0</value>
+</property>
+
+<!-- telnet server receive buffer size:1024 * 64 -->
+<property>
+<name>gaea.server.telnet.receiveBufferSize</name>
+<value>65536</value>
+</property>
+
+<!-- telnet server send buffer size:1024 * 64 -->
+<property>
+<name>gaea.server.telnet.sendBufferSize</name>
+<value>65536</value>
+</property>
+
+<!-- telnet server frame max length:1024 * 512 -->
+<property>
+<name>gaea.server.telnet.frameMaxLength</name>
+<value>524288</value>
+</property>
+
+<!-- telnet server worder thread count -->
+<property>
+<name>gaea.server.telnet.workerCount</name>
+<value>1</value>
+</property>
+
+<!-- telnet server implement class -->
+<property>
+<name>gaea.server.telnet.implement</name>
+<value>com.bj58.spat.gaea.server.core.communication.telnet.TelnetServer</value>
+</property>
+
+</configuration>
