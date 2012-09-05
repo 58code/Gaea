@@ -32,8 +32,8 @@ import com.bj58.spat.gaea.server.contract.http.HttpThreadLocal;
 import com.bj58.spat.gaea.server.contract.log.ILog;
 import com.bj58.spat.gaea.server.contract.log.LogFactory;
 import com.bj58.spat.gaea.server.util.ExceptionHelper;
-import com.bj58.spat.sfft.utility.async.AsyncInvoker;
-import com.bj58.spat.sfft.utility.async.IAsyncHandler;
+import com.bj58.spat.gaea.server.util.async.AsyncInvoker;
+import com.bj58.spat.gaea.server.util.async.IAsyncHandler;
 
 
 /**
