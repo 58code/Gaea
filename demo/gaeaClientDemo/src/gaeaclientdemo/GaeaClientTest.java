@@ -29,7 +29,7 @@ import com.bj58.spat.gaea.client.proxy.builder.ProxyFactory;
 public class GaeaClientTest {
 	public static void main(String[] args) throws Exception {
 		// 加载配置文件
-		GaeaInit.init("e:/gaea.config");
+		GaeaInit.init("/路径/gaea.config");
 		/**
 		 * 调用URL 格式:tcp://服务名//接口实现类 
 		 * 备注: 
