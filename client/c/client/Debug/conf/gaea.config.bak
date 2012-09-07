@@ -26,7 +26,7 @@
         maxCurrentUser:最大当前用户数，超过此数服务器将置为busy状态
       -->
       <Server deadTimeout="10">
-        <add name="demo" host="127.0.0.1" port="9090" maxCurrentUser="50"  />
+        <add name="demo" host="10.58.36.31" port="9090" maxCurrentUser="50"  />
       </Server>
     </Loadbalance>
   </Service>
