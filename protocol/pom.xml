@@ -10,7 +10,7 @@
 		<dependency>
 			<groupId>com.bj58.spat</groupId>
 			<artifactId>com.bj58.spat.gaea.serializer</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>
