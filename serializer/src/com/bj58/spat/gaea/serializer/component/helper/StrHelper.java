@@ -46,7 +46,7 @@ public class StrHelper {
 	}
 
 	public static boolean isEmptyOrNull(String str) {
-		if (str.equals("") || str == null) {
+		if (str == null || "".equals(str)) {
 			return true;
 		}
 		return false;
