@@ -60,7 +60,7 @@ public class Global {
 	
 	private static final Object lockHelper = new Object();
 	
-	private static Global m_global = null;
+	private static volatile Global m_global = null;
 
 	/**
 	 * 授权文件、对应方法
