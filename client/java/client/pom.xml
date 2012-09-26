@@ -1,11 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.bj58.spat</groupId>
+	<groupId>com.bj58.spat.gaea</groupId>
 	<artifactId>com.bj58.spat.gaea.client</artifactId>
 	<version>1.0.0</version>
-	<name>gaea.client</name>
-
+	
+	<repositories>
+		<repository>
+			<id>58code-maven-repository</id>
+			<url>https://raw.github.com/58code/maven-repository/master</url>
+		</repository>
+	</repositories>
+	
 	<dependencies>
 		<dependency>
 			<groupId>commons-logging</groupId>
@@ -14,13 +20,13 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.bj58.spat</groupId>
+			<groupId>com.bj58.spat.gaea</groupId>
 			<artifactId>com.bj58.spat.gaea.protocol</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.bj58.spat</groupId>
+			<groupId>com.bj58.spat.gaea</groupId>
 			<artifactId>com.bj58.spat.gaea.serializer</artifactId>
 			<version>1.0.0</version>
 		</dependency>
@@ -32,7 +38,6 @@
 			<version>4.8</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -42,7 +47,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<!-- <version>0.0.1</version> -->
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
