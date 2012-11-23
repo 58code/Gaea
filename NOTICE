@@ -1,0 +1,59 @@
+Copyright Beijing 58 Information Technology Co.,Ltd.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+================================================================
+Dependencies:
+
+Javassist:
+
+  * LICENSE:
+  * http://www.apache.org/licenses/LICENSE-2.0 (Apache License 2.0)
+  * HOMEPAGE:
+  * http://www.jboss.org/javassist
+
+Netty:
+
+  * LICENSE:
+    * http://www.apache.org/licenses/LICENSE-2.0 (Apache License 2.0)
+  * HOMEPAGE:
+    * http://netty.io
+
+CommonsLogging:
+
+  * LICENSE:
+  * http://www.apache.org/licenses/LICENSE-2.0 (Apache License 2.0)
+  * HOMEPAGE:
+  * http://commons.apache.org/logging
+
+SLF4J:
+
+  * LICENSE:
+  * http://www.apache.org/licenses/LICENSE-2.0 (Apache License 2.0)
+  * HOMEPAGE:
+  * http://www.slf4j.org
+
+Log4j:
+
+  * LICENSE:
+  * http://www.apache.org/licenses/LICENSE-2.0 (Apache License 2.0)
+  * HOMEPAGE:
+  * http://log4j.apache.org
+
+JUnit:
+
+  * LICENSE:
+  * http://http://opensource.org/licenses/cpl1.0 (Common Public License - v 1.0)
+  * HOMEPAGE:
+  * http://www.junit.org
+
