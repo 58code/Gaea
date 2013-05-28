@@ -1,12 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.bj58.spat</groupId>
+	<groupId>com.bj58.spat.gaea</groupId>
 	<artifactId>com.bj58.spat.gaea.server.contract</artifactId>
 	<version>1.0.0</version>
 	<name>gaea.server</name>
 
 	<dependencies>
+		<dependency>
+	 	   <groupId>com.bj58.spat</groupId>
+	 	   <artifactId>json</artifactId>
+		    <version>1.1.0</version>
+		    <scope>system</scope>
+		    <systemPath>${project.basedir}/lib/com.bj58.spat.json-1.1.0.jar</systemPath>
+		</dependency>
+	
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
@@ -39,13 +47,13 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.bj58.spat</groupId>
+			<groupId>com.bj58.spat.gaea</groupId>
 			<artifactId>com.bj58.spat.gaea.serializer</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.bj58.spat</groupId>
+			<groupId>com.bj58.spat.gaea</groupId>
 			<artifactId>com.bj58.spat.gaea.protocol</artifactId>
 			<version>1.0.0</version>
 		</dependency>
