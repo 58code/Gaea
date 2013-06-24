@@ -113,6 +113,7 @@ public class Dispatcher {
                 }
             }
           
+            //? Find the least load
             if ((server.getCurrUserCount() < currUserCount * server.getWeightRage() || currUserCount < 0)
                     && server.getState() == ServerState.Normal) {
                 currUserCount = server.getCurrUserCount();

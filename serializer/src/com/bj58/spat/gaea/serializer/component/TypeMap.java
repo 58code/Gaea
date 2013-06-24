@@ -86,7 +86,7 @@ public final class TypeMap {
                 public void run() {
                     System.out.println("Scan jar files begin!");
                     try {
-                        LoadCustmeType();
+                        LoadCustomType();
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
@@ -97,7 +97,7 @@ public final class TypeMap {
         } else {
             System.out.println("Scan jar files begin!");
             try {
-                LoadCustmeType();
+                LoadCustomType();
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
@@ -105,7 +105,7 @@ public final class TypeMap {
         }
     }
 
-    private static void LoadCustmeType() throws URISyntaxException, IOException, MalformedURLException, ClassNotFoundException {
+    private static void LoadCustomType() throws URISyntaxException, IOException, MalformedURLException, ClassNotFoundException {
         ClassScaner cs = new ClassScaner();
         String basePakage = System.getProperty("gaea.serializer.basepakage");
         if (basePakage == null) {

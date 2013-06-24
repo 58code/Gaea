@@ -4,3 +4,12 @@
 #*.jar
 *.war
 *.ear
+/client/java/client/*.classpath
+/client/java/client/*.project
+/client/java/client/.settings/*.prefs
+/client/java/client/target
+/client/java/client/*
+/protocol/*
+/serializer/target
+/serializer/*
+/server/*

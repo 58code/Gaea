@@ -35,7 +35,7 @@ public class ServerProfile {
     private String host;
     private int port;
     private int deadTimeout;
-    private float weithtRate;
+    private float weithtRate; //FIXME:misspelling
 
     public ServerProfile(Node node) {
         NamedNodeMap attributes = node.getAttributes();

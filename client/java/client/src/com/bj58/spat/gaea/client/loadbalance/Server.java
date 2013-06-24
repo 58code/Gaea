@@ -48,7 +48,7 @@ public class Server {
     private String address;
     private int port;
     private int weight;
-    private float weightRage;
+    private float weightRage; //Fixme: misspelling
     private ServerState state;
     private ScoketPool scoketpool;
     private int currUserCount;
