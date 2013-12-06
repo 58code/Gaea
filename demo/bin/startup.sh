@@ -56,7 +56,7 @@ fi
 
 
 # check service is run
-javacount=`ps -ef|grep java|grep "sn:$SERVICE_NAME" |wc -l`
+javacount=`ps -ef|grep java|grep "-\Dgaea.service.name=$SERVICE_NAME" |wc -l`
 #echo "javacount:"$javacount
 if [ $javacount -ge 1 ] ; then
   echo "warning: has a [$SERVICE_NAME] is running, please check......................................"
