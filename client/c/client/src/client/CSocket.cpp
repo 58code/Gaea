@@ -67,15 +67,14 @@ char* CSocket::receive(int &dataLen, int sessionId, int timeout) {
 		throw std::runtime_error("Need invoke 'registerRec' method before invoke 'receive' method!");
 	}
 	WindowData *wd = windowDataMap[sessionId - 1];
-	if (wd->getData() == NULL) {
-		int i = wd->waitOne(timeout);
-		if (i == ETIMEDOUT) {
-			errno = -1;
-			unregisterRec(sessionId);
-			gaeaLog(GAEA_WARNING, "timeout session:%d\n", sessionId);
-			throw std::runtime_error("Receive data timeout or error!");
-		}
+	int i = wd->waitOne(timeout);
+	if (i == ETIMEDOUT) {
+		errno = -1;
+		unregisterRec(sessionId);
+		gaeaLog(GAEA_WARNING, "timeout session:%d\n", sessionId);
+		throw std::runtime_error("Receive data timeout or error!");
 	}
+
 	dataLen = wd->getDataLen();
 	char *data = wd->getData();
 	unregisterRec(sessionId);

@@ -47,6 +47,7 @@ private:
     int dataLen;
     pthread_mutex_t mutex_; //线程同步锁
     pthread_cond_t cond_; //线程同步的条件变量
+    bool ready;
 };
 
 #endif /* WINDOWDATA_H_ */

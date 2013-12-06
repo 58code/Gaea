@@ -33,7 +33,7 @@
 #include <stddef.h>
 #include <sys/types.h>
 #include <stdio.h>
-WindowData::WindowData() {
+WindowData::WindowData() : ready(false) {
 	if (pthread_mutex_init(&mutex_, NULL) != 0) {
 		errno = -3;
 		throw std::runtime_error("pthread_mutex_init error");
@@ -52,12 +52,15 @@ int WindowData::waitOne(int timeOut) {
 	mytime.tv_sec = now.tv_sec + timeOut;
 	mytime.tv_nsec = now.tv_usec * 1000;
 	pthread_mutex_lock(&mutex_);
-	i = pthread_cond_timedwait(&cond_, &mutex_, &mytime); //等待线程调度
+	if (!ready) {
+		i = pthread_cond_timedwait(&cond_, &mutex_, &mytime); //等待线程调度
+	}
 	pthread_mutex_unlock(&mutex_);
 	return i;
 }
 void WindowData::set() {
 	pthread_mutex_lock(&mutex_);
+	ready = true;
 	pthread_cond_signal(&cond_);
 	pthread_mutex_unlock(&mutex_);
 }
