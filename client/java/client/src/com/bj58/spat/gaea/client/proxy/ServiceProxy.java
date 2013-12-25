@@ -58,7 +58,7 @@ public class ServiceProxy {
     private int sessionId = 1;
     private int requestTime = 0;//超时重连次数
     private int ioreconnect = 0;//IO服务切换次数
-    private int count = 0;
+    private int count = 0; //根据requestTime和ioreconnect确定
     private static final ILog logger = LogFactory.getLogger(ServiceProxy.class);
     private static final Object locker = new Object();
     private static final HashMap<String, ServiceProxy> Proxys = new HashMap<String, ServiceProxy>();
@@ -74,6 +74,8 @@ public class ServiceProxy {
     	}
     	
     	ioreconnect = serverCount - 1;
+    	
+    //	count = max {ioreconnect, requestTime}
     	count = requestTime;
     	
     	if(ioreconnect > requestTime){

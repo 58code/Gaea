@@ -97,10 +97,10 @@ public class ScoketPool {
             	 logger.error("授权文件没有通过校验!");
             	 throw new Exception("授权文件没有通过校验!");
             }
-        } else {        	
-            if (queue.size() > 0) {            	
+        } else {
+            if (queue.size() > 0) {
             	rSocket = queue.dequeue();
-            } else {            	
+            } else {
             	rSocket = queue.dequeue(socketPoolConfig.getWaitTimeout());
             	if (rSocket == null) {
                     logger.error("socket connection pool is full!");
