@@ -1,4 +1,4 @@
-/*
+﻿/*
  *  Copyright Beijing 58 Information Technology Co.,Ltd.
  *
  *  Licensed to the Apache Software Foundation (ASF) under one
@@ -134,15 +134,15 @@ public final class ServiceConfig {
     private static void printExceprion(int i, String serviceName) throws Exception{
     	switch (i) {
 			case 0:
-				throw new Exception("gaea.config中没有发现" + serviceName + "服务节点!");
+				throw new Exception(GaeaConst.CONFIG_PATH + "中没有发现" + serviceName + "服务节点!");
 			case 1:
-				throw new Exception("gaea.config服务节点" + serviceName + "没有发现Commmunication/SocketPool配置!");
+				throw new Exception(GaeaConst.CONFIG_PATH + "服务节点" + serviceName + "没有发现Commmunication/SocketPool配置!");
 			case 2:
-				throw new Exception("gaea.config服务节点" + serviceName + "没有发现Commmunication/Protocol配置!");
+				throw new Exception(GaeaConst.CONFIG_PATH + "服务节点" + serviceName + "没有发现Commmunication/Protocol配置!");
 			case 3:
-				throw new Exception("gaea.config服务节点" + serviceName + "没有发现Loadbalance/Server/add配置!");
+				throw new Exception(GaeaConst.CONFIG_PATH + "服务节点" + serviceName + "没有发现Loadbalance/Server/add配置!");
 			case 4:
-				throw new Exception("gaea.config服务节点" + serviceName + "没有发现Service/id配置!");
+				throw new Exception(GaeaConst.CONFIG_PATH + "服务节点" + serviceName + "没有发现Service/id配置!");
 			default:
 				break;
 		}
