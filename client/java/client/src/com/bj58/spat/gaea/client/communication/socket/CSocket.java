@@ -203,9 +203,11 @@ public class CSocket {
         return result;
     }
     
+    private int index = 0;
+    
     private boolean handling = false;
 
-    protected void frameHandle() throws IOException, InterruptedException {
+    protected void frameHandle() throws Exception {
         if (handling) {
             return;
         }
@@ -217,10 +219,14 @@ public class CSocket {
                     dispose(true);
                     return;
                 }
-                int index = 0;
                 receiveBuffer.clear();
                 try {
-                    channel.read(receiveBuffer);
+                	int re = channel.read(receiveBuffer);
+                	if (re < 0) {
+                		this.closeAndDisponse();
+                		logger.error("server is close.this socket will close.");
+                		return;
+                	}
                 } catch (IOException ex) {
                     _connecting = false;
                     throw ex;
@@ -243,8 +249,8 @@ public class CSocket {
                             int pSessionId = ByteConverter.bytesToIntLittleEndian(pak, SFPStruct.Version + SFPStruct.TotalLen);
                             WindowData wd = WaitWindows.get(pSessionId);
                             if (wd != null) {
-                                wd.setData(pak);
-                                wd.getEvent().set();
+                            	wd.setData(pak);
+                            	wd.getEvent().set();
                             }
                             index = 0;
                             receiveData.reset();
@@ -258,7 +264,10 @@ public class CSocket {
                     	}
                     }
                 }
-            } finally {
+            } catch(Exception ex){
+            	index = 0;
+            	throw ex;
+            }finally {
                 handling = false;
             }
         }
@@ -275,6 +284,11 @@ public class CSocket {
         } finally {
             super.finalize();
         }
+    }
+    
+    public void closeAndDisponse(){
+    	this.close();
+		dispose(true);
     }
 
     public boolean connecting() {
