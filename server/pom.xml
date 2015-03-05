@@ -7,6 +7,17 @@
 	<name>gaea.server</name>
 
 	<dependencies>
+
+		<dependency>
+			<!-- 添加本地jar包 --> 
+    			<groupId>com.bj58.spat</groupId> 
+    			<artifactId>com.bj58.spat.json</artifactId> 
+    			<version>1.1.0</version> 
+    			<type>jar</type> 
+    			<scope>system</scope> 
+    			<systemPath>${basedir}/lib/com.bj58.spat.json-1.1.0.jar</systemPath> 
+		</dependency>		
+
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
@@ -16,7 +27,7 @@
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.15</version>
+			<version>1.2.17</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -39,13 +50,13 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.bj58.spat</groupId>
+			<groupId>com.bj58.spat.gaea</groupId>
 			<artifactId>com.bj58.spat.gaea.serializer</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.bj58.spat</groupId>
+			<groupId>com.bj58.spat.gaea</groupId>
 			<artifactId>com.bj58.spat.gaea.protocol</artifactId>
 			<version>1.0.0</version>
 		</dependency>
@@ -69,6 +80,7 @@
 					<target>1.6</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
+				<version>2.3.2</version>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
